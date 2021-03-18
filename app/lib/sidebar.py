@@ -16,7 +16,7 @@ from datetime import datetime as dt
 from app import app
 
 example_img = html.Div(
-    children=[html.Img(src=app.get_asset_url("~/Documents/analisis_datos/dash-example/app/assets/logo.png"), id="example-image",)],
+    children=[html.Img(src=app.get_asset_url("~/Documents/analisis_datos/dash-example/app/assets/logo.jpeg"), id="example-image",)],
 )
 
 variables_dict = {'sepal_length': 'Sepal Lenght', 'sepal_width': 'Sepal Width', 'petal_length': 'Petal Length', 'petal_width': 'Petal Width'}
